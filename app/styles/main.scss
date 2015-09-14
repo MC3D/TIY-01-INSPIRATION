@@ -1,0 +1,86 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Custom Styles
+
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+
+  *:before {
+    box-sizing: inherit;
+  }
+
+  *:after {
+    box-sizing: inherit;
+  }
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: inline-block;
+}
+
+a {
+  background: no-repeat center;
+  background-size: cover;
+  border-radius: 125px;
+  display: table;
+  height: 15rem;
+  margin: 1rem;
+  text-decoration: none;
+  width: 15rem;
+}
+
+a:hover {
+  background-color: #000;
+  background-image: none;
+
+  span {
+    display: table-cell;
+  }
+}
+
+span {
+  color: #fff;
+  display: none;
+  line-height: 1.5rem;
+  vertical-align: middle;
+}
+
+.href {
+}
+
+.href-one {
+  background-image: url('../images/learning.jpg');
+  background-position: -.3rem 2.2rem;
+  background-size: 15.1rem;
+}
+
+.href-two {
+  background-image: url('../images/collaboration.png');
+
+}
+
+.href-three {
+  background-image: url('../images/impact.jpg');
+}
+
+.href-four {
+  background-image: url('../images/choices.jpg');
+}
+
+.href-five {
+  background-color: #221f6c;
+  background-image: url('../images/helping.jpg');
+  background-position: .7rem .4rem;
+  background-size: 14rem;
+}
